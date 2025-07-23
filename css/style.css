@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff; /* Добавили цвет текста по умолчанию */
+}
+
+body {
+  font-family: 'Roboto';
+  background-color: #152c33; /* Добавили черный фон для body */
+  min-height: 100vh; /* Занимаем всю высоту экрана */
+  display: flex;
+  flex-direction: column; /* Организуем содержимое в колонку */
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 550px;
+    min-height: 150px;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 600px;
+    margin: auto; /* Центрируем по вертикали и горизонтали */
+}
