@@ -7,13 +7,15 @@
 
 body {
   font-family: 'Roboto';
-  background-color: #152c33; /* Добавили черный фон для body */
-  min-height: 100vh; /* Занимаем всю высоту экрана */
+  background-color: #152c33;
   display: flex;
   flex-direction: column; /* Организуем содержимое в колонку */
 }
 
 .time {
+  position: fixed;
+  top: 65%;
+  left: 30%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,7 +23,78 @@ body {
     min-width: 550px;
     min-height: 150px;
     color: #FFF;
-    border-radius: 10px;
-    font-size: 600px;
-    margin: auto; /* Центрируем по вертикали и горизонтали */
+    border-radius: 1%;
+    font-size: 300px;
+}
+
+.half {
+  position: fixed;
+  font-size: 100px;
+  margin-top: 30%;
+  margin-left: 41%;
+}
+
+.score {
+  text-align: center;
+  display: flex;
+    position: fixed;
+    top: 45%;      
+    left: 13.5%;     
+    padding: 10px;   
+    z-index: 9999;  
+    gap: 57.5em;  
+}
+  .escore {
+    margin: 0; 
+    font-size: 25em; 
+  }
+
+  .logo {
+    margin: 0;
+    margin-left: 8%;
+    position: fixed;
+    display: flex;
+    gap: 43em;
+  }
+
+  .logo img {
+  width: 26%;  
+  height: 26%; 
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  width: 7%;  
+  height: 7%; 
+  margin-top: 1%;
+}
+
+.teamName {
+  position: fixed;
+  display: flex;
+  text-align: center;
+  margin-top: 24%;
+  margin-left: 2%;
+  gap: 33.5em;
+}
+
+.teamName h1 {
+  font-size: 70px;
+}
+
+.pattern img{
+  position: fixed;
+  transform: rotate(-30deg);
+  top: 20%;
+  left: 40%;
+}
+
+.pattern-mirror img{
+  position: fixed;
+  transform: scaleX(-1) rotate(-30deg);
+  top: 20%;
+  left: -97.1%;
 }

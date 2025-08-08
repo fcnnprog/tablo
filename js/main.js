@@ -2,7 +2,7 @@ const minutesBlock = document.querySelector('.js-minutes');
 const secondsBlock = document.querySelector('.js-seconds');
 
 let interval;
-let minutes = 105;
+let minutes = 0;
 let seconds = 0;
 let timerRunning = false;
 
@@ -19,11 +19,11 @@ const startTimer = () => {
         seconds = 0;
     }
 
-    // Проверяем, не достигли ли 90 минут
-    if (minutes >= 120) {
-        stop(); // Останавливаем таймер
-        minutes = 120; // Гарантируем, что минуты будут ровно 90
-        seconds = 0; // Сбрасываем секунды
+
+    if (minutes >= 45) {
+        stop();
+        minutes = 45;
+        seconds = 0; 
     }
 
     updateDisplay();
@@ -49,5 +49,16 @@ const reset = () => {
     updateDisplay();
 };
 
-// Запускаем таймер при загрузке страницы:
 start();
+
+function incrementScore(scoreId) {
+  let scoreElement = document.getElementById(scoreId);
+  let score = parseInt(scoreElement.innerText);
+  scoreElement.innerText = score + 1;
+}
+
+function decrementScore(scoreId) {
+  let scoreElement = document.getElementById(scoreId);
+  let score = parseInt(scoreElement.innerText);
+  scoreElement.innerText = score - 1;
+}
