@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Montserrat';
   background-color: #152c33;
   display: flex;
   flex-direction: column; /* Организуем содержимое в колонку */
@@ -39,10 +39,10 @@ body {
   display: flex;
     position: fixed;
     top: 45%;      
-    left: 13.5%;     
+    left: 13%;     
     padding: 10px;   
     z-index: 9999;  
-    gap: 57.5em;  
+    gap: 55em;  
 }
   .escore {
     margin: 0; 
@@ -78,7 +78,7 @@ body {
   text-align: center;
   margin-top: 24%;
   margin-left: 2%;
-  gap: 33.5em;
+  gap: 24em;
 }
 
 .teamName h1 {
