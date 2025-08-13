@@ -73,7 +73,7 @@ const escore2Element = document.querySelector('.escore2');
     const incrementButton = document.getElementById('incrementButton');
     const decrementButton = document.getElementById('decrementButton');
 
-    const incrementButton2 = document.getElementById('incrementButton2');
+    const incrementButton2 = document.getElementById('incrementButton2');3
     const decrementButton2 = document.getElementById('decrementButton2');
 
     let currentValue = 0;

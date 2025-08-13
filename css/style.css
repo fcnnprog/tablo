@@ -14,8 +14,8 @@ body {
 
 .time {
   position: fixed;
-  top: 65%;
-  left: 30%;
+  top: 68%;
+  left: 34%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
     min-height: 1 0px;
     color: #FFF;
     border-radius: 1%;
-    font-size: 280px;
+    font-size: 230px;
 }
 
 .half {
@@ -38,8 +38,8 @@ body {
   text-align: center;
   display: flex;
     position: fixed;
-    top: 45%;      
-    left: 13%;     
+    top: 40%;      
+    left: 12.5%;     
     padding: 10px;   
     z-index: 9999;  
     gap: 55em;  
@@ -49,8 +49,8 @@ body {
   text-align: center;
   display: flex;
     position: fixed;
-    top: 45%;      
-    left: 73%;     
+    top: 40%;      
+    left: 72.5%;     
     padding: 10px;   
     z-index: 9999;  
     gap: 55em;  
